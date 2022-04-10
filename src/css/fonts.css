@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "MontserratRegular";
+  src: url("../assets/fonts/Montserrat/MontserratRegular/MontserratRegular.eot");
+  src: url("../assets/fonts/Montserrat/MontserratRegular/MontserratRegular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Montserrat/MontserratRegular/MontserratRegular.woff") format("woff"), url("../assets/fonts/Montserrat/MontserratRegular/MontserratRegular.ttf") format("truetype"), url("../assets/fonts/Montserrat/MontserratRegular/MontserratRegular.svg") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "MontserratBold";
+  src: url("../assets/fonts/Montserrat/MontserratBold/MontserratBold.eot");
+  src: url("../assets/fonts/Montserrat/MontserratBold/MontserratBold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Montserrat/MontserratBold/MontserratBold.woff") format("woff"), url("../assets/fonts/Montserrat/MontserratBold/MontserratBold.ttf") format("truetype"), url("../assets/fonts/Montserrat/MontserratBold/MontserratBold.svg") format("svg");
+  font-style: normal;
+  font-weight: 700;
+}

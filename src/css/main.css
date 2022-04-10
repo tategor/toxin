@@ -1,0 +1,39 @@
+body {
+  background-color: #e5e5e5;
+  font-family: "MontserratRegular", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1440px;
+  height: 1350px;
+  background-color: #f4f4f6;
+  display: block;
+  margin: 0 auto;
+}
+
+img.logo__img {
+  margin: 30px 0 0 0 30px;
+  width: 48px;
+  height: 48px;
+}
+
+.header__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  display: inline-block;
+}
+
+.header__nav {
+  width: 1440px;
+  height: 70px;
+  background-color: #fff;
+}

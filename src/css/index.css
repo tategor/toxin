@@ -1,0 +1,65 @@
+body {
+  background-color: #f4f4f6;
+  font-family: "MontserratRegular", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.logo__title {
+  display: block;
+}
+
+img.logo__image {
+  width: 48px;
+  height: 48px;
+  margin: 30px;
+}
+
+.ulkitlist {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 90px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.ulkitlist__main-title {
+  padding-top: 50px;
+  text-align: center;
+  color: #BC9CFF;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.ulkitlist__listblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.ulkitlist__listpages {
+  padding: 20px;
+}
+.ulkitlist__list-header {
+  padding: 40px 20px 20px 20px;
+  font-size: 24px;
+  color: #1F2041;
+  opacity: 0.75;
+  font-weight: 700;
+}
+.ulkitlist__list {
+  line-height: normal;
+  font-size: 22px;
+}
+
+@media (max-width: 450px) {
+  .ulkitlist__listblock {
+    display: block;
+  }
+  .ulkitlist__listpages {
+    width: 100%;
+    text-align: center;
+  }
+}

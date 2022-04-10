@@ -1,0 +1,33 @@
+block variables
+	- let content = 'Это контент страницы по умолчанию';
+	- let pageTitle = 'Стартовая страница с макетами Toxin';
+	- let pageDescription = 'Страницы макетов Toxin';
+	- let pageKeywords = 'layout toxin, landing page';
+
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(name="description", content=pageDescription)
+		meta(name="keywords", content=pageKeywords)
+		title #{pageTitle}
+
+		style 
+			include ../css/null.css
+			include ../css/fonts.css
+			include ../css/index.css
+			
+body
+	
+	block header
+	
+	block content 
+		main 
+			h1 Select Page
+			.content 
+				p #{content}
+	block footer 
+		footer Это подвал странички
+
